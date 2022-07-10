@@ -24,3 +24,6 @@
         <br><br><br>
         <?php require "C:/xampp/htdocs/subway_surf/require/footer.php" ?>
 </html>
+
+Welcome <?php echo $_GET["name"]; ?><br>
+Your email address is: <?php echo $_GET["email"]; ?>

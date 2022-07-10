@@ -27,3 +27,13 @@ hr {
     background-color: gray;
     color: gray;
 }
+input[type=number] {
+    padding: 10px;
+    margin: 10px 0px;
+    border: solid 2px #5865f2;
+    border-radius: 10px;
+}
+label {
+    color: lightgreen;
+    font-size: 21px;
+}
