@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
+        <script src="https://kit.fontawesome.com/ede9707ca2.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="/styles.css">
         <link rel="stylesheet" href="https://devvali.github.io/Boostyle/index.css">
         <title>A JSON code template generator for Subway Surfers.</title>
@@ -27,6 +29,10 @@
         <a href="/generators/wallet"><button class="btn btn-primary" style="width:75%">wallet.json (coins, keys, ...)</button></a>
 
         <br><br><br>
+        <i class="fa-solid fa-at" style="font-size:30px;color:#aaa"></i>
+        <p style="color:#aaa;font-size:17px">
+            <i class="fab fa-github"></i> <a href="https://github.com/DevVali/subway_surf" style="color:#aaa;text-decoration:none">github.com/DevVali/subway_surf</a>
+        </p>
         <hr>
         <footer style="font-size:15px">© <?php echo date("Y") ?> Vali, all rights reserved</footer> 
 </html>
