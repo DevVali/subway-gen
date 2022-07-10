@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require "C:/xampp/htdocs/subway_surf/require/connect.php" ?>
+        <?php require "/home/runner/subwaysurf/require/connect.php" ?>
         <title>Generate the wallet.json file</title>
     </head>
     <body>
@@ -16,9 +16,9 @@
             <label for="number">Coins:</label> <input type="number" name="coins" required><br>
             <label for="number">Keys:</label> <input type="number" name="keys" required><br>
         </fieldset>
-        <br><input type="submit" name="submit" class="btn btn-success">
+        <br><input type="submit" class="btn btn-success">
         </form>
 
         <br><br><br>
-        <?php require "C:/xampp/htdocs/subway_surf/require/footer.php" ?>
+        <?php require "/home/runner/subwaysurf/require/footer.php" ?>
 </html>

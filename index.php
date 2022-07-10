@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php require "C:/xampp/htdocs/subway_surf/require/connect.php" ?>
+        <?php require "/home/runner/subwaysurf/require/connect.php" ?>
         <title>A JSON code template generator for Subway Surfers.</title>
     </head>
     <body>
@@ -22,8 +22,5 @@
         <a href="/generator/wallet"><button class="btn btn-primary" style="width:75%">wallet.json (coins, keys, ...)</button></a>
 
         <br><br><br>
-        <?php require "C:/xampp/htdocs/subway_surf/require/footer.php" ?>
+        <?php require "/home/runner/subwaysurf/require/footer.php" ?>
 </html>
-
-Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_GET["email"]; ?>
