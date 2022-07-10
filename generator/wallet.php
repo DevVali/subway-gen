@@ -10,7 +10,7 @@
                 <p style="color:#aaa;font-size:25px">Fill out the options and generate your customized JSON template code.</p>
         </header>
         
-        <form method="post" action="/generator/wallet.php">
+        <form method="post" action="/code/wallet.php">
         <fieldset>
             <legend>Game data</legend>
             <label for="number">Coins:</label> <input type="number" name="coins" required><br>
