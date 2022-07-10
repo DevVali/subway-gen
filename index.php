@@ -19,7 +19,7 @@
             <li>Copy the generated code, find the file in the folder "profile" and paste it there.</li>
         </ol>
         <h2>Available generators</h2>
-        <a href="/generator/wallet"><button class="btn btn-primary" style="width:75%">wallet.json (coins, keys, ...)</button></a>
+        <a href="/generator/wallet.php"><button class="btn btn-primary" style="width:75%">wallet.json (coins, keys, ...)</button></a>
 
         <br><br><br>
         <?php require "/home/runner/subwaysurf/require/footer.php" ?>
