@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>A JSON code template generator for Subway Surfers.</title>
-<?php require "/home/runner/subwaysurf/require/connect.php" ?>
+    <?php require "/home/runner/subwaysurf/require/connect.php" ?>
   </head>
   <body>
     <header>
@@ -22,5 +22,5 @@
     <a href="/generator/wallet.php"><button class="btn btn-primary" style="width:75%">wallet.json (coins, keys, ...)</button></a>
 
     <br><br><br>
-<?php require "/home/runner/subwaysurf/require/footer.php" ?>
+    <?php require "/home/runner/subwaysurf/require/footer.php" ?>
 </html>

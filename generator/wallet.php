@@ -1,3 +1,11 @@
+<?php
+$warn = "";
+session_start();
+if (isset($_SESSION['error'])) {
+  $warn = $_SESSION['error'];
+}
+session_destroy();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,16 +13,21 @@
     <?php require "/home/runner/subwaysurf/require/connect.php" ?>
   </head>
   <body>
+    <p><?php echo "$warn"; ?></p>
     <header>
       <h1>Generate the wallet.json file</h1>
       <p style="color:#aaa;font-size:25px">Fill out the options and generate your customized JSON template code.</p>
     </header>
         
-    <form method="post" action="/code/wallet.php">
+    <form method="get" action="/code/wallet.php">
       <fieldset>
         <legend>Game data</legend>
-        <label for="number">Coins:</label> <input type="number" name="coins" required><br>
-        <label for="number">Keys:</label> <input type="number" name="keys" required><br>
+        <label for="number">Hoverboards:</label> <input type="number" name="hoverboards" required> <font color="red">*</font><br>
+        <label for="number">Keys:</label> <input type="number" name="keys" required> <font color="red">*</font><br>
+        <label for="number">Coins:</label> <input type="number" name="coins" required> <font color="red">*</font><br>
+        <label for="number">Score Boosters:</label> <input type="number" name="scoreboosters" required> <font color="red">*</font><br>
+        <label for="number">Headstars:</label> <input type="number" name="headstars" required> <font color="red">*</font><br>
+        <label for="number">Event coins:</label> <input type="number" name="eventcoins" required> <font color="red">*</font><br>
       </fieldset>
       <br><input type="submit" class="btn btn-success">
     </form>

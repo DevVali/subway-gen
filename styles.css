@@ -20,6 +20,17 @@ a {
   color: lightgreen;
   text-decoration: underline;
 }
+textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid #8b8b8b;
+  border-radius: 5px;
+  background-color: #424242;
+  font-size: 16px;
+  resize: none;
+}
 hr {
   width: 75%;
   height: 2px;
