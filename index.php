@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<?php require "/home/runner/subwaysurf/require/connect.php" ?>
     <title>A JSON code template generator for Subway Surfers.</title>
+<?php require "/home/runner/subwaysurf/require/connect.php" ?>
   </head>
   <body>
     <header>
       <h1>A JSON code template generator for Subway Surfers.</h1>
       <p style="color:#aaa;font-size:25px">Earn coins, keys and more for free in Subway Surfers.</p>
-      <img src="https://cdn.discordapp.com/attachments/889423777123938315/995664415410102272/subwaysurfers_01.png" style="width:600px;height:300px">
+      <img src="https://cdn.discordapp.com/attachments/889423777123938315/995664415410102272/subwaysurfers_01.png">
     </header>
     <h2>Android Tutorial</h2>
     <ol style="display:grid;place-items: center;">

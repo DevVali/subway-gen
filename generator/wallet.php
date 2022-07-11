@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <?php require "/home/runner/subwaysurf/require/connect.php" ?>
     <title>Generate the wallet.json file</title>
+    <?php require "/home/runner/subwaysurf/require/connect.php" ?>
   </head>
   <body>
     <header>

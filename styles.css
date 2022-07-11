@@ -27,6 +27,11 @@ hr {
   background-color: gray;
   color: gray;
 }
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
 input[type=number] {
   padding: 10px;
   margin: 10px 0px;
