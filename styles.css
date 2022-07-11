@@ -1,39 +1,39 @@
 * {
-    text-align: center;
+  text-align: center;
 }
 html, body {
-    background: #063647;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  background: #063647;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 header {
-    color: #5865f2;
+  color: #5865f2;
 }
 footer {
-    font-size: 15px
+  font-size: 15px
 }
 h2 {
-    color: #5865f2;
+  color: #5865f2;
 }
 a {
-    color: lightgreen;
-    text-decoration: underline;
+  color: lightgreen;
+  text-decoration: underline;
 }
 hr {
-    width: 75%;
-    height: 2px;
-    border-width: 0;
-    background-color: gray;
-    color: gray;
+  width: 75%;
+  height: 2px;
+  border-width: 0;
+  background-color: gray;
+  color: gray;
 }
 input[type=number] {
-    padding: 10px;
-    margin: 10px 0px;
-    border: solid 2px #5865f2;
-    border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  border: solid 2px #5865f2;
+  border-radius: 10px;
 }
 label {
-    color: lightgreen;
-    font-size: 21px;
+  color: lightgreen;
+  font-size: 21px;
 }
