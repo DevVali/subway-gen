@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#5865f2"/>
 <meta property="og:site_name" content="© <?php echo date("Y"); ?> Vali, all rights reserved"/>
 <meta property="og:title" content="A JSON code template generator for Subway Surfers."/>
-<meta property="og:image" content="https://cdn.discordapp.com/attachments/889423777123938315/995730047979757619/coin_favicon.png"/>
+<meta property="og:image" content="https://cdn.discordapp.com/attachments/889423777123938315/995664415410102272/subwaysurfers_01.png"/>
 <meta property="og:url" content="https://subwaysurf.devvali.repl.co/"/>
 <meta property="twitter:card" content="summary_large_image"/>
 <meta name="author" content="Vali"/>
