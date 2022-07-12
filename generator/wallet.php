@@ -23,11 +23,10 @@ session_destroy();
       <fieldset>
         <legend>Game data</legend>
         <label for="number">Hoverboards:</label> <input type="number" name="hoverboards" required> <font color="red">*</font><br>
-        <label for="number">Keys:</label> <input type="number" name="keys" required> <font color="red">*</font><br>
-        <label for="number">Coins:</label> <input type="number" name="coins" required> <font color="red">*</font><br>
+        <label for="number">Game keys:</label> <input type="number" name="gamekeys" required> <font color="red">*</font><br>
+        <label for="number">Game coins:</label> <input type="number" name="gamecoins" required> <font color="red">*</font><br>
         <label for="number">Score Boosters:</label> <input type="number" name="scoreboosters" required> <font color="red">*</font><br>
-        <label for="number">Headstars:</label> <input type="number" name="headstars" required> <font color="red">*</font><br>
-        <label for="number">Event coins:</label> <input type="number" name="eventcoins" required> <font color="red">*</font><br>
+        <label for="number">Headstarts:</label> <input type="number" name="headstarts" required> <font color="red">*</font><br>
       </fieldset>
       <br><input type="submit" class="btn btn-success">
     </form>
