@@ -22,11 +22,11 @@ session_destroy();
     <form method="get" action="/code/wallet.php">
       <fieldset>
         <legend>Game data</legend>
-        <label for="number">Hoverboards:</label> <input type="number" name="hoverboards" required> <font color="red">*</font><br>
-        <label for="number">Game keys:</label> <input type="number" name="gamekeys" required> <font color="red">*</font><br>
-        <label for="number">Game coins:</label> <input type="number" name="gamecoins" required> <font color="red">*</font><br>
-        <label for="number">Score Boosters:</label> <input type="number" name="scoreboosters" required> <font color="red">*</font><br>
-        <label for="number">Headstarts:</label> <input type="number" name="headstarts" required> <font color="red">*</font><br>
+        <label for="number">Hoverboards:</label><br> <input type="number" name="hoverboards" required> <font color="red">*</font><br>
+        <label for="number">Game keys:</label><br> <input type="number" name="gamekeys" required> <font color="red">*</font><br>
+        <label for="number">Game coins:</label><br> <input type="number" name="gamecoins" required> <font color="red">*</font><br>
+        <label for="number">Score Boosters:</label><br> <input type="number" name="scoreboosters" required> <font color="red">*</font><br>
+        <label for="number">Headstarts:</label><br> <input type="number" name="headstarts" required> <font color="red">*</font><br>
       </fieldset>
       <br><input type="submit" class="btn btn-success">
     </form>
