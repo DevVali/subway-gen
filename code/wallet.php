@@ -45,7 +45,7 @@ if (isset($_GET["headstarts"]) == false) {
         
     <h2>Android Tutorial</h2>
     <ol style="display:grid;place-items: center;">
-      <li>Download <a href="https://play.google.com/store/apps/details?id=com.kiloo.subway-gen&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Subway Surfers</a>.</li>
+      <li>Download <a href="https://play.google.com/store/apps/details?id=com.kiloo.subwaysurf&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Subway Surfers</a>.</li>
       <li>Open your file manager app.</li>
       <li>Navigate between the folders.</li>
       <li>Android → data → com.kiloo.subway-gen → files → profile</li>
