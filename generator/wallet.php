@@ -10,7 +10,7 @@ session_destroy();
 <html lang="en">
   <head>
     <title>Generate the wallet.json file</title>
-    <?php require "/home/runner/subwaysurf/require/connect.php" ?>
+    <?php require "/home/runner/subway-gen/require/connect.php" ?>
   </head>
   <body>
     <p><?php echo "$warn"; ?></p>
@@ -32,5 +32,5 @@ session_destroy();
     </form>
 
     <br><br><br>
-      <?php require "/home/runner/subwaysurf/require/footer.php" ?>
+      <?php require "/home/runner/subway-gen/require/footer.php" ?>
 </html>
